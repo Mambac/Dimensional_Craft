@@ -52,6 +52,29 @@
             margin: auto;
             padding: 20px;
         }
+        .mision-vision {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .mision, .vision {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            position: relative;
+            border-radius: 10px;
+        }
+        .mision {
+            background: #00796B;
+        }
+        .vision {
+            background: #004D40;
+        }
         .productos-section {
             margin: 20px 0;
             padding: 10px;
@@ -86,10 +109,8 @@
             text-align: center;
         }
         .producto img {
-            width: 100%;
-            max-width: 450px; /* Ajusta el tamaño máximo de las imágenes */
+            width: 80%;
             height: auto;
-            aspect-ratio: 4/5; /* Forzar un aspecto similar para todas */
             border-radius: 10px;
             margin: 10px auto;
         }
@@ -115,7 +136,7 @@
 </head>
 <body>
     <header>
-        <img src="Logo.png" alt="Dimensional Craft Logo">
+        <img src="image.png" alt="Dimensional Craft Logo">
         <p>Transformando la imaginación en realidad</p>
     </header>
     <nav>
@@ -126,17 +147,16 @@
         </ul>
     </nav>
     <div class="container">
-    <div class="mision-vision" id="mision-vision">
-        <div class="vision">
-            <h2>Visión</h2>
-            <p>Ser el referente nacional en la creación de figuras 3D personalizadas en los próximos 5 años, destacando en diseño y sostenibilidad.</p>
+        <div class="mision-vision" id="mision-vision">
+            <div class="vision">
+                <h2>Visión</h2>
+                <p>Ser el referente nacional en la creación de figuras 3D personalizadas en los próximos 5 años, destacando en diseño y sostenibilidad.</p>
+            </div>
+            <div class="mision">
+                <h2>Misión</h2>
+                <p>Transformar la imaginación de nuestros clientes en figuras 3D personalizadas de alta calidad, conectando emociones e innovación.</p>
+            </div>
         </div>
-        <div class="mision">
-            <h2>Misión</h2>
-            <p>Transformar la imaginación de nuestros clientes en figuras 3D personalizadas de alta calidad, conectando emociones e innovación.</p>
-        </div>
-    </div>
-    <div class="container">
         <h2 id="productos">Productos</h2>
 
         <!-- Sección Disney -->
@@ -162,7 +182,7 @@
             <div class="productos">
                 <div class="producto">
                     <h4>Pokémon: Squirtle</h4>
-                    <img src="SquirtleNew.png" alt="Figura Squirtle">
+                    <img src="Squirtle.jpeg" alt="Figura Squirtle">
                     <p>$160.000</p>
                 </div>
             </div>
@@ -170,8 +190,7 @@
 
     </div>
     <footer id="contacto">
-        <p>Contacto: <a href="mailto:dimensionalcraftingspa@gmail.com">dimensionalcraftingspa@gmail.com</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/dimensional_crafting/" target="_blank">@dimensional_crafting</a></p>
+        <p>Contacto: contacto@dimensionalcraft.com</p>
         <p>&copy; 2024 Dimensional Craft. Todos los derechos reservados.</p>
     </footer>
 </body>
