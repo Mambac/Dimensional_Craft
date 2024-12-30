@@ -46,7 +46,6 @@
             color: white;
             text-decoration: none;
             font-size: 22px; /* Tamaño de fuente aumentado */
-            display: inline-block; /* Asegura que el espacio vertical sea uniforme */
         }
         .container {
             width: 90%;
@@ -75,6 +74,17 @@
         }
         .vision {
             background: #004D40; /* Color más oscuro del logo */
+        }
+        .productos-section {
+            margin: 40px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .disney {
+            background-color: #8bcabc; /* Color para Disney */
+        }
+        .anime {
+            background-color: #dff4f1; /* Color para Anime */
         }
         .productos {
             display: flex;
@@ -128,18 +138,36 @@
             </div>
         </div>
         <h2 id="productos">Productos</h2>
-        <div class="productos">
-            <div class="producto">
-                <img src="Mickey.jpeg" alt="Figura personalizada 1">
-                <h3>Figura: Mickey</h3>
-                <p>$75.000</p>
-            </div>
-            <div class="producto">
-                <img src="Squirtle.jpeg" alt="Figura personalizada 2">
-                <h3>Figura: Squirtle</h3>
-                <p>$160.000</p>
+
+        <!-- Sección Disney -->
+        <div class="productos-section disney">
+            <h3>Disney</h3>
+            <div class="productos">
+                <div class="producto">
+                    <img src="Mickey.jpeg" alt="Figura Mickey">
+                    <h4>Figura: Mickey</h4>
+                    <p>$75.000</p>
+                </div>
+                <div class="producto">
+                    <img src="Sebastian.jpeg" alt="Figura Sebastian">
+                    <h4>Figura: Sebastian</h4>
+                    <p>$85.000</p>
+                </div>
             </div>
         </div>
+
+        <!-- Sección Anime -->
+        <div class="productos-section anime">
+            <h3>Anime</h3>
+            <div class="productos">
+                <div class="producto">
+                    <img src="Squirtle.jpeg" alt="Figura Squirtle">
+                    <h4>Figura: Squirtle</h4>
+                    <p>$160.000</p>
+                </div>
+            </div>
+        </div>
+
     </div>
     <footer id="contacto">
         <p>Contacto: contacto@dimensionalcraft.com</p>
@@ -147,3 +175,4 @@
     </footer>
 </body>
 </html>
+
