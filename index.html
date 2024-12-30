@@ -13,7 +13,7 @@
             color: #333;
         }
         header {
-            background: #00796B; /* Color del logo */
+            background: #1e8a70; /* Color del logo */
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -26,7 +26,7 @@
             padding: 0;
             margin: 0;
             list-style: none;
-            background: #004D40; /* Color más oscuro del logo */
+            background: #155b4b; /* Color más oscuro */
             display: flex;
             justify-content: center;
         }
@@ -45,24 +45,24 @@
         }
         .mision-vision {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            margin: 20px 0;
+            gap: 20px;
+            margin: 40px 0;
         }
         .mision, .vision {
-            width: 45%;
+            width: 80%;
             padding: 20px;
             color: white;
             text-align: center;
-            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .mision {
-            background: #00796B; /* Color principal del logo */
-            clip-path: polygon(0 0, 100% 50%, 0 100%);
+            background: #1e8a70;
         }
         .vision {
-            background: #004D40; /* Color más oscuro del logo */
-            clip-path: polygon(100% 0, 0 50%, 100% 100%);
+            background: #155b4b;
         }
         .productos {
             display: flex;
@@ -87,7 +87,7 @@
         footer {
             text-align: center;
             padding: 20px;
-            background: #004D40;
+            background: #155b4b;
             color: white;
         }
     </style>
@@ -119,14 +119,14 @@
         <h2 id="productos">Productos Destacados</h2>
         <div class="productos">
             <div class="producto">
-                <img src="producto1.png" alt="Figura personalizada 1">
-                <h3>Figura: Goku</h3>
-                <p>Precio: UF2.5</p>
+                <img src="Mickey.jpeg" alt="Figura personalizada 1">
+                <h3>Figura: Mickey Mouse</h3>
+                <p>Precio: UF1.5</p>
             </div>
             <div class="producto">
-                <img src="producto2.png" alt="Figura personalizada 2">
-                <h3>Figura: Iron Man</h3>
-                <p>Precio: UF3.0</p>
+                <img src="Squirtle.jpeg" alt="Figura personalizada 2">
+                <h3>Figura: Squirtle</h3>
+                <p>Precio: UF2.0</p>
             </div>
         </div>
     </div>
@@ -136,4 +136,5 @@
     </footer>
 </body>
 </html>
+
 
