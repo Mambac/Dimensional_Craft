@@ -52,29 +52,6 @@
             margin: auto;
             padding: 20px;
         }
-        .mision-vision {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin: 40px 0;
-        }
-        .mision, .vision {
-            width: 100%;
-            max-width: 800px;
-            padding: 20px;
-            color: white;
-            text-align: center;
-            position: relative;
-            border-radius: 10px;
-        }
-        .mision {
-            background: #00796B;
-        }
-        .vision {
-            background: #004D40;
-        }
         .productos-section {
             margin: 20px 0;
             padding: 10px;
@@ -109,8 +86,10 @@
             text-align: center;
         }
         .producto img {
-            width: 80%;
+            width: 100%;
+            max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
             height: auto;
+            aspect-ratio: 4/5; /* Forzar un aspecto similar para todas */
             border-radius: 10px;
             margin: 10px auto;
         }
@@ -147,16 +126,6 @@
         </ul>
     </nav>
     <div class="container">
-        <div class="mision-vision" id="mision-vision">
-            <div class="vision">
-                <h2>Visión</h2>
-                <p>Ser el referente nacional en la creación de figuras 3D personalizadas en los próximos 5 años, destacando en diseño y sostenibilidad.</p>
-            </div>
-            <div class="mision">
-                <h2>Misión</h2>
-                <p>Transformar la imaginación de nuestros clientes en figuras 3D personalizadas de alta calidad, conectando emociones e innovación.</p>
-            </div>
-        </div>
         <h2 id="productos">Productos</h2>
 
         <!-- Sección Disney -->
@@ -195,5 +164,3 @@
     </footer>
 </body>
 </html>
-
-
