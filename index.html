@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimensional Craft</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -79,6 +79,12 @@
             margin: 40px 0;
             padding: 20px;
             border-radius: 10px;
+            text-align: center;
+        }
+        .productos-section h3 {
+            font-family: 'Pacifico', cursive; /* Fuente fantástica */
+            font-size: 28px;
+            color: #333;
         }
         .disney {
             background-color: #8bcabc; /* Color para Disney */
@@ -94,7 +100,7 @@
             margin: 20px 0;
         }
         .producto {
-            width: 30%;
+            width: 25%;
             background: #ffffff;
             border-radius: 10px;
             padding: 10px;
@@ -102,9 +108,13 @@
             text-align: center;
         }
         .producto img {
-            width: 100%;
+            width: 80%; /* Reducir tamaño de la imagen */
             height: auto;
             border-radius: 10px;
+            margin: 10px auto;
+        }
+        .producto h4 {
+            margin: 10px 0;
         }
         footer {
             text-align: center;
@@ -144,13 +154,13 @@
             <h3>Disney</h3>
             <div class="productos">
                 <div class="producto">
-                    <img src="Mickey.jpeg" alt="Figura Mickey">
                     <h4>Figura: Mickey</h4>
+                    <img src="Mickey.jpeg" alt="Figura Mickey">
                     <p>$75.000</p>
                 </div>
                 <div class="producto">
-                    <img src="Sebastian.jpeg" alt="Figura Sebastian">
                     <h4>Figura: Sebastian</h4>
+                    <img src="Sebastian.jpeg" alt="Figura Sebastian">
                     <p>$85.000</p>
                 </div>
             </div>
@@ -161,8 +171,8 @@
             <h3>Anime</h3>
             <div class="productos">
                 <div class="producto">
-                    <img src="Squirtle.jpeg" alt="Figura Squirtle">
                     <h4>Figura: Squirtle</h4>
+                    <img src="Squirtle.jpeg" alt="Figura Squirtle">
                     <p>$160.000</p>
                 </div>
             </div>
@@ -175,4 +185,3 @@
     </footer>
 </body>
 </html>
-
