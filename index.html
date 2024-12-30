@@ -61,8 +61,7 @@
             margin: 40px 0;
         }
         .mision, .vision {
-            width: 100%;
-            max-width: 800px;
+            width: 80%; /* Ahora ocupa el 80% del ancho */
             padding: 20px;
             color: white;
             text-align: center;
@@ -74,6 +73,18 @@
         }
         .vision {
             background: #004D40;
+        }
+        .productos-header {
+            text-align: center;
+            background-color: #e6f7f7;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .productos-header h2 {
+            font-family: 'Pacifico', cursive;
+            font-size: 48px;
+            color: #333;
         }
         .productos-section {
             margin: 20px 0;
@@ -180,7 +191,11 @@
                 <p>Transformar la imaginación de nuestros clientes en figuras 3D personalizadas de alta calidad, conectando emociones e innovación.</p>
             </div>
         </div>
-        <h2 id="productos">Productos</h2>
+
+        <!-- Encabezado de Productos -->
+        <div class="productos-header">
+            <h2 id="productos">Productos</h2>
+        </div>
 
         <!-- Sección Disney -->
         <div class="productos-section disney">
